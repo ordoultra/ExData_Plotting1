@@ -19,8 +19,6 @@ png(paste0(path,'plot3.png'), width = 480, height = 480, units = "px")
 # background color has been determined to be not relevant to the problem.
 # If it were required this is how it would be achieved: p
 #  plot(HN[c(10,7)], type="s", ylab="Energy sub metering", xlab="", bg="transparent")
-
-# Bottom Left Graph - [Energy sub metering] / datetime
 plot(HN[c(10,7)], type="s", ylab="Energy sub metering", xlab="")
 lines(HN[c(10,8)], type="s", col="red")
 lines(HN[c(10,9)], type="s", col="blue")

@@ -18,9 +18,7 @@ png(paste0(path,'plot2.png'), width = 480, height = 480, units = "px")
 # The example graph images have a transparent background however the 
 # background color has been determined to be not relevant to the problem.
 # If it were required this is how it would be achieved: 
-#  plot(HN[c(10,3)], type="l", ylab="Global Active Power", xlab="", bg="transparent")
-
-# Top Left Graph - [Global Active Power] / datetime
+#  plot(HN[c(10,3)], type="l", ylab="Global Active Power (kilowatts)", xlab="", bg="transparent")
 plot(HN[c(10,3)], type="l", ylab="Global Active Power (kilowatts)", xlab="")
 
 
